@@ -74,9 +74,12 @@ This is the input video with simulated camera shake.
 
 Visual comparisons of the original shaky video versus the stabilized output for each algorithm.
 
--   **Feature-Based Comparison:** ![Feature-Based Comparison](./assets/comparison_video_feature.gif)
--   **Optical Flow-Based Comparison:** ![Optical Flow-Based Comparison](./assets/comparison_video_optical_flow.gif)
--   **Parametric Comparison:** ![Parametric Comparison](./assets/comparison_video_parametric.gif)
+-   **Feature-Based Comparison:** 
+![Feature-Based Comparison](./assets/comparison_video_feature.gif)
+-   **Optical Flow-Based Comparison:** 
+![Optical Flow-Based Comparison](./assets/comparison_video_optical_flow.gif)
+-   **Parametric Comparison:** 
+![Parametric Comparison](./assets/comparison_video_parametric.gif)
 
 ## 📊 Performance Metrics
 
