@@ -1,0 +1,49 @@
+{
+  "processing_info": {
+    "algorithm": "parametric",
+    "processing_time_seconds": 6.738768577575684,
+    "smoothing_radius": 25,
+    "border_mode": "black",
+    "crop_ratio": 0.08,
+    "parametric_motion_type": "homography"
+  },
+  "original_motion_analysis": {
+    "mean_motion_x": 2.733473390714893,
+    "mean_motion_y": 2.351301759855518,
+    "std_motion_x": 3.7380850582601313,
+    "std_motion_y": 3.205717876708629,
+    "max_motion_x": 24.8201904296875,
+    "max_motion_y": 24.062713623046875,
+    "total_frames": 239
+  },
+  "stabilized_motion_analysis": {
+    "mean_motion_x": 0.7505711511587997,
+    "mean_motion_y": 0.6536263821015298,
+    "std_motion_x": 1.2384778947922297,
+    "std_motion_y": 1.5435080209927756,
+    "max_motion_x": 13.45269775390625,
+    "max_motion_y": 21.02728271484375,
+    "total_frames": 239
+  },
+  "stabilization_metrics": {
+    "motion_reduction_x": 0.8620705941509824,
+    "motion_reduction_y": 0.9582375936049825,
+    "motion_reduction_angle": 0.9228148795016529,
+    "motion_reduction_scale": 0.15772799153424877,
+    "original_variance_x": 159.64142713063669,
+    "original_variance_y": 139.32659497844034,
+    "original_variance_angle": 0.00035755352376972446,
+    "original_variance_scale": 0.0001228992180754604,
+    "smoothed_variance_x": 22.019247194397256,
+    "smoothed_variance_y": 5.818613881541246,
+    "smoothed_variance_angle": 2.759858366797981e-05,
+    "smoothed_variance_scale": 0.00010352299396737305,
+    "total_frames": 239
+  },
+  "improvement_summary": {
+    "motion_reduction_x": 66.8686539902152,
+    "motion_reduction_y": 51.851408004202646,
+    "max_motion_reduction_x": 45.7993773576554,
+    "max_motion_reduction_y": 12.614665809328496
+  }
+}

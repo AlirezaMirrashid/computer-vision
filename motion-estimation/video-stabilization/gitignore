@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Demo output files
+*demo_output/*
+
+# Video files (if not intended for repo)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.json
+
+

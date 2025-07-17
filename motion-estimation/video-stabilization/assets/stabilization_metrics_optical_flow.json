@@ -1,0 +1,49 @@
+{
+  "processing_info": {
+    "algorithm": "optical_flow",
+    "processing_time_seconds": 4.132625579833984,
+    "smoothing_radius": 25,
+    "border_mode": "black",
+    "crop_ratio": 0.08,
+    "max_features": 500
+  },
+  "original_motion_analysis": {
+    "mean_motion_x": 2.733473390714893,
+    "mean_motion_y": 2.351301759855518,
+    "std_motion_x": 3.7380850582601313,
+    "std_motion_y": 3.205717876708629,
+    "max_motion_x": 24.8201904296875,
+    "max_motion_y": 24.062713623046875,
+    "total_frames": 239
+  },
+  "stabilized_motion_analysis": {
+    "mean_motion_x": 0.6249226207014906,
+    "mean_motion_y": 0.5982865848301844,
+    "std_motion_x": 1.022057830669939,
+    "std_motion_y": 1.5670755203968942,
+    "max_motion_x": 10.655853271484375,
+    "max_motion_y": 22.25177001953125,
+    "total_frames": 239
+  },
+  "stabilization_metrics": {
+    "motion_reduction_x": 0.8472314831619298,
+    "motion_reduction_y": 0.9650684311649169,
+    "motion_reduction_angle": 0.9793974060226628,
+    "motion_reduction_scale": 0.10195766709241816,
+    "original_variance_x": 166.7145855241359,
+    "original_variance_y": 140.25466631094116,
+    "original_variance_angle": 0.000339478890794588,
+    "original_variance_scale": 5.582642468532763e-07,
+    "smoothed_variance_x": 25.46873996732354,
+    "smoothed_variance_y": 4.899315531031558,
+    "smoothed_variance_angle": 6.994351776857452e-06,
+    "smoothed_variance_scale": 5.103253499520863e-07,
+    "total_frames": 239
+  },
+  "improvement_summary": {
+    "motion_reduction_x": 72.65825109004744,
+    "motion_reduction_y": 51.116237277690814,
+    "max_motion_reduction_x": 57.06780211186906,
+    "max_motion_reduction_y": 7.5259325772016545
+  }
+}
